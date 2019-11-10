@@ -6,6 +6,10 @@
     "require": {
         "php": ">=5.4"
     },
+    "repositories": [ 
+        { "type": "composer", "url": "https://packagist.org" }, 
+        { "packagist": false } 
+    ],
     "autoload": {
         "psr-4": {
             "Miarra\\XMLToJSON\\": "src/"
