@@ -1,0 +1,14 @@
+{
+    "name": "miarra/xml_to_json",
+    "type": "library",
+    "description": "XML to JSON",
+    "license": ["BSD-3-Clause", "GPL-2.0-or-later", "GPL-3.0-or-later"],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miarra\\XMLToJSON\\": "src/"
+        }
+    }
+}
